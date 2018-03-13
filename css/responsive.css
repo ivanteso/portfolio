@@ -1,7 +1,7 @@
 /* smartphone breakpoint */
 @media screen and (max-width: 425px) {
   body {
-    margin: 1em;
+    margin: 2em;
   }
 
   main {
@@ -81,7 +81,7 @@
 @media screen and (min-width: 426px) {
 
   body {
-    margin: 0 1em;
+    margin: 0 2em;
   }
 
   .fixed_header,
@@ -270,10 +270,6 @@
 
   footer {
     margin-top: -1em;
-  }
-
-  .contacts {
-    padding-bottom: 1em;
   }
 
   .responsive_icon {
