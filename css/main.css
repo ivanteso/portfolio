@@ -23,10 +23,6 @@ em {
   color: #9e0504;
 }
 
-sup {
-  color: white;
-}
-
 figure {
   margin: 0;
 }
@@ -59,6 +55,7 @@ header {
 }
 
 .main_title {
+  color: white;
   border-bottom: 1px solid white;
   text-transform: uppercase;
   margin: 0 0 16px 0;
