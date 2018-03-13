@@ -11,3 +11,5 @@ This portfolio is 100% responisve for all the devices. There are major and minor
 - phablet
 - tablet
 - desktop
+
+The layout grid is made with flexbox and I've used "scrset" to render different images for different viewport width.
