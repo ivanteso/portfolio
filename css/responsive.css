@@ -1,0 +1,309 @@
+/* smartphone breakpoint */
+@media screen and (max-width: 425px) {
+  body {
+    margin: 1em;
+  }
+
+  main {
+    padding-top: 1em;
+  }
+
+  .fixed_header,
+  .contacts {
+  /*margin-left: 0;
+  margin-right: 0;*/
+  width: 100%;
+  }
+
+  .introduction,
+  .projects {
+    width: 100%;
+  }
+
+  h2 {
+    font-weight: 600;
+  }
+
+  .section_title {
+    font-size: 6vw;
+  }
+
+  h3 {
+    font-size: 5vw;
+  }
+
+  /* header */
+
+  header {
+    padding: 0;
+  }
+
+  .main_title {
+    font-size: 9vw;
+  }
+
+  .main_title sup {
+    font-size: 3vw;
+  }
+
+  /* introduction */
+
+  .introduction {
+    margin-bottom: 0;
+  }
+
+  .main_pic {
+    margin-bottom: 1em;
+  }
+
+  .description,
+  .main_pic {
+    width: 100%;
+  }
+
+  /* projects */
+
+  .card {
+    width: 100%;
+    border-top: 1px dotted #9e0504;
+  }
+
+  .projects_pic figcaption {
+    top: 5%;
+    left: 5%;
+    letter-spacing: 12px;
+    line-height: 1.5;
+    font-size: 5.5vw;
+  }
+
+  .logo {
+    height: 5vw;
+  }
+}
+
+/* small tablet/phablet breakpoint */
+@media screen and (min-width: 426px) {
+
+  body {
+    margin: 0 1em;
+  }
+
+  .fixed_header,
+  .contacts {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  /* header */
+
+  header {
+    padding: 0 1em;
+  }
+
+  .main_title {
+    font-size: 8vw;
+  }
+
+  .main_title sup {
+    font-size: 3vw;
+  }
+
+  /* introduction */
+
+  .main_pic figcaption {
+    font-size: 10px;
+    left: 0;
+  }
+
+  .description_body p {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    line-height: 1.25em;
+  }
+
+  /* projects */
+
+  .logo {
+    height: 18px;
+  }
+
+  .card {
+    width: 100%;
+    border-top: 1px dotted #9e0504;
+  }
+
+  .projects_pic figcaption {
+    top: 20%;
+    left: 5%;
+    letter-spacing: 12px;
+    line-height: 1.5;
+    font-size: 5.5vw;
+  }
+}
+
+/* tablet breakpoint */
+@media screen and (min-width: 550px) {
+
+  /* introduction */
+
+  .introduction,
+  .card_space {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .introduction figure {
+    width: 100%;
+  }
+
+  .description {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* projects */
+
+  .card_space {
+    justify-content: space-between;
+  }
+
+  .card {
+    width: calc(50% - 1em);
+    margin-bottom: 1em;
+    border-top: 1px dotted #9e0504;
+  }
+
+  .projects_pic figcaption {
+    top: 10%;
+    letter-spacing: 10px;
+    font-size: 3.5vw;
+  }
+}
+
+/* desktop breakpoint */
+@media screen and (min-width: 769px) {
+
+  h2 {
+    font-weight: 400;
+    font-size: 3vw;
+  }
+
+  .projects_pic h2 {
+    font-size: 2.75vw;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 2.5vw;
+  }
+
+  p,
+  #phone_number {
+    font-size: 1.7vw;
+  }
+
+  /* header */
+
+  header {
+    padding: 0 20%;
+  }
+
+  .main_title {
+    font-size: 6vw;
+  }
+
+  .main_title sup {
+    font-size: 2vw;
+  }
+
+  .introduction,
+  .card_space {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* introduction */
+
+  .introduction figure {
+    width: calc(30% - 0.5em);
+  }
+
+  .description {
+    width: calc(70% - 0.5em);
+    margin: 0;
+  }
+
+
+  .logo {
+    height: 2.25vw;
+    transform: translateY(1px);
+  }
+
+  /* projects */
+
+  .card {
+    width: calc(25% - (1em * 3 / 4));
+    margin-bottom: 1em;
+    border-top: 1px dotted #9e0504;
+    border-bottom: 1px dotted #9e0504;
+  }
+
+  .projects_pic figcaption {
+    letter-spacing: 6px;
+    line-height: 1.75;
+  }
+
+  /* footer */
+
+  footer {
+    margin: -1em 1em 0 1em;
+  }
+
+  .contact_field {
+    width: 40%;
+    font-weight: 400;
+  }
+
+  #phone_number {
+    width: 20%;
+    /*padding-top: 1em;*/
+    text-align: center;
+  }
+
+  #address {
+    text-align: right;
+  }
+}
+
+/* desktop footer only */
+@media screen and (max-width: 768px) {
+
+  footer {
+    margin-top: -1em;
+  }
+
+  .contacts {
+    padding-bottom: 1em;
+  }
+
+  .responsive_icon {
+    width: 25%;
+    text-align: center;
+  }
+
+  #phone_number {
+    width: 50%;
+    /*margin-top: 0.5em;*/
+    text-align: center;
+  }
+
+  .contact_extended {
+    display: none;
+  }
+
+  .contact_icon {
+    display: block;
+  }
+}
