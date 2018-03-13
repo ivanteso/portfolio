@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ivan's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600%7cRaleway:400,600,600i" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+    <header>
+      <div class="fixed_header">
+        <h1 class="main_title">Ivan Teso<sup> does <em>a lot</em> of stuff</sup></h1>
+      </div>
+    </header>
+    <main>
+      <section class="introduction">
+        <figure class="main_pic">
+          <picture>
+            <source media="(min-width: 769px)" srcset="images/bassplayer-1200_large_2x.jpg">
+            <source media="(min-width: 551px)" srcset="images/bassplayer-800_crop.jpg">
+            <source media="(min-width: 426px)" srcset="images/bassplayer-600_medium_1x.jpg">
+            <img src="images/bassplayer-425_small_crop.jpg" alt="Me, playing bass with my band, Dresda, in a festival in Genova, 2015.">
+          </picture>
+          <figcaption>Credits: <a href="https://vimeo.com/davidecolombino" target="_blank">Davide Colombino</a></figcaption>
+        </figure>
+        <div class="description">
+          <h2 class="section_title" id="description_title"><em>just</em> a guy with many <em>passions</em></h2>
+          <div class="description_body">
+            <p>First of all, I'm a dreamer. I like to experiment as much as possible and I'm always ready to jump into a new project. I've just started another journey through the magical world of web developing, and I'm currently studying at Udacity to change my career from the DNA to coding.<br>I'm a music lover and player. Check out below my post-rock band. I'm also a photography enthusiast and I love to shot nature and street pictures.<br>And I never miss a chance to travel somewhere but, well... who doesn't?</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects">
+        <h2 class="section_title">Personal <em>projects</em></h2>
+        <div class="card_space">
+          <div class="card" id="udacity">
+            <h3><a href="https://eu.udacity.com/course/front-end-web-developer-nanodegree--nd001" target="_blank">
+        <img src="https://musuauer.github.io/Udacity_portfolio/svg/udacity.svg" alt="Udacity logo" class="logo"></a>  Udacity</h3>
+            <figure class="projects_pic">
+              <picture>
+                <source media="(min-width: 426px)" srcset="images/pixel-600_medium_1x.jpg">
+                <img src="images/pixel-425_small_crop.jpg" alt="A small preview of my Pixel Art Project, designed like an old 8-bit game">
+              </picture>
+              <figcaption><a href="https://github.com/ivanteso" target="_blank"><h2 class="pic_title">Pixel<br>Art<br>Project</h2></a></figcaption>
+            </figure>
+            <p class="card_description">Here's the final project I submitted at the end of the Google's scholarship phase 1. The design is inspired by 8-bit videogames. For this work I was selected for phase 2 and I was awarded a "Front End Developer Nanodegree" at Udacity.</p>
+          </div>
+
+          <div class="card" id="photography">
+            <h3>Photography</h3>
+            <figure class="projects_pic">
+              <picture>
+                <source media="(min-width: 426px)" srcset="images/tampereonstreets-600_medium_1x.jpg">
+                <img src="images/tampereonstreets-425_small_crop.jpg" alt="One of the pictures of my project called 'Tampere on Streets', focused on the street photography.">
+              </picture>
+              <figcaption><a href="https://tampereonstreetscom.wordpress.com/" target="_blank"><h2 class="pic_title">Tampere<br>On<br>Streets</h2></a></figcaption>
+            </figure>
+            <p class="card_description">I moved to Finland in 2017 and I've tried to show the city I live in, Tampere, with an alternative point of view. This project was born from my love for this young and live city. You can follow the project also on <a href="https://www.instagram.com/tampereonstreets/" target="_blank">Instagram</a>.</p>
+          </div>
+
+          <div class="card" id="music">
+            <h3>Music</h3>
+            <figure class="projects_pic">
+              <picture>
+                <source media="(min-width: 426px)" srcset="images/dresda-600_medium_1x.jpg">
+                <img src="images/dresda-425_small_crop.jpg" alt="Dresda's instruments and a Christmas light, pic taken by me in 2015.">
+              </picture>
+              <figcaption><a href="https://dresda.wordpress.com/" target="_blank"><h2 class="pic_title">Dresda</h2></a></figcaption>
+            </figure>
+            <p class="card_description">Dresda is an instrumental band from Genova, Italy, born in ’05, influenced by the post rock movement, and most of all involved in soundtrack music. I'm the bassplayer. We are getting older but, as the good wine, our music is getting better.</p>
+          </div>
+
+          <div class="card" id="travels">
+            <h3>Travels</h3>
+            <figure class="projects_pic">
+              <picture>
+                <source media="(min-width: 426px)" srcset="images/roadsfortwo-600_medium_1x.jpg">
+                <img src="images/roadsfortwo-425_small_crop.jpg" alt="A boat on the Yangon River in Yangon, Myanmar.">
+              </picture>
+              <figcaption><a href="http://www.roadsfortwo.com" target="_blank"><h2 class="pic_title">Roads<br>For<br>Two</h2></a></figcaption>
+            </figure>
+            <p class="card_description">In 2016 I've decided with my wife to quit our life in Italy and start to travel for a while. We have spent around one year in Europe and Asia with only our backpacks. Here you can find some of our stories and pics.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="contacts">
+        <div class="contact_field responsive_icon" id="mail">
+          <a href="mailto:ivan.teso@gmail.com" class="contact_icon"><i class="far fa-envelope fa-2x"></i></a>
+          <a href="mailto:ivan.teso@gmail.com" class="contact_extended"><p>ivan.teso@gmail.com</p></a>
+        </div>
+        <div class="contact_field" id="phone_number">
+          <p>+358 41 7555297</p>
+        </div>
+        <div class="contact_field responsive_icon" id="address">
+          <a href="https://goo.gl/maps/soWtuGebsP52" target="_blank" class="contact_icon"><i class="far fa-map fa-2x"></i></a>
+          <a href="https://goo.gl/maps/CvoM4Dyh2H22" target="_blank" class="contact_extended"><p>Aaltosenkatu 27-29, Tampere, Finland</p></a>
+        </div>
+      </div>
+    </footer>
+
+
+
+  </body>
+</html>
