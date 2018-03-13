@@ -42,10 +42,6 @@
     font-size: 9vw;
   }
 
-  .main_title sup {
-    font-size: 3vw;
-  }
-
   /* introduction */
 
   .introduction {
@@ -103,10 +99,6 @@
 
   .main_title {
     font-size: 8vw;
-  }
-
-  .main_title sup {
-    font-size: 3vw;
   }
 
   /* introduction */
@@ -212,10 +204,6 @@
 
   .main_title {
     font-size: 6vw;
-  }
-
-  .main_title sup {
-    font-size: 2vw;
   }
 
   .introduction,
