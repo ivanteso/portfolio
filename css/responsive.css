@@ -215,11 +215,11 @@
   /* introduction */
 
   .introduction figure {
-    width: calc(30% - 0.5em);
+    width: calc(30% - 1em);
   }
 
   .description {
-    width: calc(70% - 0.5em);
+    width: calc(70% - 1em);
     margin: 0;
   }
 
@@ -232,7 +232,7 @@
   /* projects */
 
   .card {
-    width: calc(25% - (1em * 3 / 4));
+    width: calc(25% - 1em);
     margin-bottom: 1em;
     border-top: 1px dotted #9e0504;
     border-bottom: 1px dotted #9e0504;
