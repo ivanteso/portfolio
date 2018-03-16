@@ -230,7 +230,7 @@
   /* projects */
 
   .card {
-    width: calc(25% - 1.5em);
+    width: 22%;
     margin-bottom: 1em;
     border-top: 1px dotted #9e0504;
     border-bottom: 1px dotted #9e0504;
